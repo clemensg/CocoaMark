@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC03AB21AB4777200E2B292 /* CocoaMark.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC03AB11AB4777200E2B292 /* CocoaMark.h */; };
+		ABC03AB41AB4777200E2B292 /* CocoaMark.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC03AB31AB4777200E2B292 /* CocoaMark.m */; };
+		ABC03ABA1AB4777200E2B292 /* libCocoaMark.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC03AAE1AB4777200E2B292 /* libCocoaMark.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC03ABB1AB4777200E2B292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC03AA61AB4777200E2B292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC03AAD1AB4777200E2B292;
+			remoteInfo = CocoaMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC03AAE1AB4777200E2B292 /* libCocoaMark.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCocoaMark.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC03AB11AB4777200E2B292 /* CocoaMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaMark.h; sourceTree = "<group>"; };
+		ABC03AB31AB4777200E2B292 /* CocoaMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaMark.m; sourceTree = "<group>"; };
+		ABC03AB91AB4777200E2B292 /* CocoaMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC03ABF1AB4777200E2B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC03AAB1AB4777200E2B292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC03AB61AB4777200E2B292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC03ABA1AB4777200E2B292 /* libCocoaMark.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC03AA51AB4777200E2B292 = {
+			isa = PBXGroup;
+			children = (
+				ABC03AB01AB4777200E2B292 /* CocoaMark */,
+				ABC03ABD1AB4777200E2B292 /* CocoaMarkTests */,
+				ABC03AAF1AB4777200E2B292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC03AAF1AB4777200E2B292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC03AAE1AB4777200E2B292 /* libCocoaMark.dylib */,
+				ABC03AB91AB4777200E2B292 /* CocoaMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC03AB01AB4777200E2B292 /* CocoaMark */ = {
+			isa = PBXGroup;
+			children = (
+				ABC03AB11AB4777200E2B292 /* CocoaMark.h */,
+				ABC03AB31AB4777200E2B292 /* CocoaMark.m */,
+			);
+			path = CocoaMark;
+			sourceTree = "<group>";
+		};
+		ABC03ABD1AB4777200E2B292 /* CocoaMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC03ABE1AB4777200E2B292 /* Supporting Files */,
+			);
+			path = CocoaMarkTests;
+			sourceTree = "<group>";
+		};
+		ABC03ABE1AB4777200E2B292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC03ABF1AB4777200E2B292 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABC03AAC1AB4777200E2B292 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC03AB21AB4777200E2B292 /* CocoaMark.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABC03AAD1AB4777200E2B292 /* CocoaMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC03AC21AB4777200E2B292 /* Build configuration list for PBXNativeTarget "CocoaMark" */;
+			buildPhases = (
+				ABC03AAA1AB4777200E2B292 /* Sources */,
+				ABC03AAB1AB4777200E2B292 /* Frameworks */,
+				ABC03AAC1AB4777200E2B292 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaMark;
+			productName = CocoaMark;
+			productReference = ABC03AAE1AB4777200E2B292 /* libCocoaMark.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		ABC03AB81AB4777200E2B292 /* CocoaMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC03AC51AB4777200E2B292 /* Build configuration list for PBXNativeTarget "CocoaMarkTests" */;
+			buildPhases = (
+				ABC03AB51AB4777200E2B292 /* Sources */,
+				ABC03AB61AB4777200E2B292 /* Frameworks */,
+				ABC03AB71AB4777200E2B292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC03ABC1AB4777200E2B292 /* PBXTargetDependency */,
+			);
+			name = CocoaMarkTests;
+			productName = CocoaMarkTests;
+			productReference = ABC03AB91AB4777200E2B292 /* CocoaMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC03AA61AB4777200E2B292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Gruber Software";
+				TargetAttributes = {
+					ABC03AAD1AB4777200E2B292 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ABC03AB81AB4777200E2B292 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = ABC03AA91AB4777200E2B292 /* Build configuration list for PBXProject "CocoaMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABC03AA51AB4777200E2B292;
+			productRefGroup = ABC03AAF1AB4777200E2B292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC03AAD1AB4777200E2B292 /* CocoaMark */,
+				ABC03AB81AB4777200E2B292 /* CocoaMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC03AB71AB4777200E2B292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC03AAA1AB4777200E2B292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC03AB41AB4777200E2B292 /* CocoaMark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC03AB51AB4777200E2B292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC03ABC1AB4777200E2B292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC03AAD1AB4777200E2B292 /* CocoaMark */;
+			targetProxy = ABC03ABB1AB4777200E2B292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABC03AC01AB4777200E2B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABC03AC11AB4777200E2B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABC03AC31AB4777200E2B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC03AC41AB4777200E2B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABC03AC61AB4777200E2B292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC03AC71AB4777200E2B292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC03AA91AB4777200E2B292 /* Build configuration list for PBXProject "CocoaMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC03AC01AB4777200E2B292 /* Debug */,
+				ABC03AC11AB4777200E2B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC03AC21AB4777200E2B292 /* Build configuration list for PBXNativeTarget "CocoaMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC03AC31AB4777200E2B292 /* Debug */,
+				ABC03AC41AB4777200E2B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC03AC51AB4777200E2B292 /* Build configuration list for PBXNativeTarget "CocoaMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC03AC61AB4777200E2B292 /* Debug */,
+				ABC03AC71AB4777200E2B292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC03AA61AB4777200E2B292 /* Project object */;
+}
