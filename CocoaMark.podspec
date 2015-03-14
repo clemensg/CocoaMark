@@ -14,4 +14,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'CocoaMark/*.{h,m}'
     ss.dependency 'hoedown'
   end
+
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.8'
 end
