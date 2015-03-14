@@ -1,0 +1,12 @@
+PODS:
+  - hoedown (3.0.1):
+    - hoedown/standard (= 3.0.1)
+  - hoedown/standard (3.0.1)
+
+DEPENDENCIES:
+  - hoedown (>= 3.0)
+
+SPEC CHECKSUMS:
+  hoedown: 08c427a0eed4918efb945be0e181a8cbc063bc24
+
+COCOAPODS: 0.36.0

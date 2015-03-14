@@ -8,6 +8,16 @@
 
 #import "CocoaMark.h"
 
+#import "CocoaMarkDocumentProcessor.h"
+#import "CocoaMarkRenderer.h"
+
 @implementation CocoaMark
+
++ (NSString*)renderMarkdown:(NSString*)string
+{
+    CocoaMarkRenderer *renderer = [[CocoaMarkRenderer alloc] initWithFlags:0];
+    CocoaMarkDocumentProcessor *documentProcessor = [[CocoaMarkDocumentProcessor alloc] initWithRenderer:renderer extensions:0 maxNesting:16];
+    return [documentProcessor renderMarkdown:string];
+}
 
 @end

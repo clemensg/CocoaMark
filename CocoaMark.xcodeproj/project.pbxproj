@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D18FDE458853F7B6098E03B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 128EE80997DAC226F0D748CD /* libPods.a */; };
+		AB8A154A1AB48B7400AE3A3C /* MarkdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A15491AB48B7400AE3A3C /* MarkdownTests.m */; };
 		ABC03AB21AB4777200E2B292 /* CocoaMark.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC03AB11AB4777200E2B292 /* CocoaMark.h */; };
 		ABC03AB41AB4777200E2B292 /* CocoaMark.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC03AB31AB4777200E2B292 /* CocoaMark.m */; };
 		ABC03ABA1AB4777200E2B292 /* libCocoaMark.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC03AAE1AB4777200E2B292 /* libCocoaMark.dylib */; };
+		ABC03ACA1AB4786000E2B292 /* CocoaMarkRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC03AC81AB4786000E2B292 /* CocoaMarkRenderer.h */; };
+		ABC03ACB1AB4786000E2B292 /* CocoaMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC03AC91AB4786000E2B292 /* CocoaMarkRenderer.m */; };
+		ABC03ACE1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC03ACC1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.h */; };
+		ABC03ACF1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC03ACD1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,11 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		128EE80997DAC226F0D748CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E5FDD43276D97944B660A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7D950C06C94BDD80D0A21160 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AB8A15491AB48B7400AE3A3C /* MarkdownTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTests.m; sourceTree = "<group>"; };
 		ABC03AAE1AB4777200E2B292 /* libCocoaMark.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCocoaMark.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC03AB11AB4777200E2B292 /* CocoaMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaMark.h; sourceTree = "<group>"; };
 		ABC03AB31AB4777200E2B292 /* CocoaMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaMark.m; sourceTree = "<group>"; };
 		ABC03AB91AB4777200E2B292 /* CocoaMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC03ABF1AB4777200E2B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC03AC81AB4786000E2B292 /* CocoaMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaMarkRenderer.h; sourceTree = "<group>"; };
+		ABC03AC91AB4786000E2B292 /* CocoaMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaMarkRenderer.m; sourceTree = "<group>"; };
+		ABC03ACC1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaMarkDocumentProcessor.h; sourceTree = "<group>"; };
+		ABC03ACD1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaMarkDocumentProcessor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D18FDE458853F7B6098E03B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,12 +64,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FD405791599623A5E3FA58E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36E5FDD43276D97944B660A1 /* Pods.debug.xcconfig */,
+				7D950C06C94BDD80D0A21160 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AF807ECD60626CB999E0B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128EE80997DAC226F0D748CD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABC03AA51AB4777200E2B292 = {
 			isa = PBXGroup;
 			children = (
 				ABC03AB01AB4777200E2B292 /* CocoaMark */,
 				ABC03ABD1AB4777200E2B292 /* CocoaMarkTests */,
 				ABC03AAF1AB4777200E2B292 /* Products */,
+				5FD405791599623A5E3FA58E /* Pods */,
+				7AF807ECD60626CB999E0B40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +106,10 @@
 			children = (
 				ABC03AB11AB4777200E2B292 /* CocoaMark.h */,
 				ABC03AB31AB4777200E2B292 /* CocoaMark.m */,
+				ABC03ACC1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.h */,
+				ABC03ACD1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.m */,
+				ABC03AC81AB4786000E2B292 /* CocoaMarkRenderer.h */,
+				ABC03AC91AB4786000E2B292 /* CocoaMarkRenderer.m */,
 			);
 			path = CocoaMark;
 			sourceTree = "<group>";
@@ -80,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC03ABE1AB4777200E2B292 /* Supporting Files */,
+				AB8A15491AB48B7400AE3A3C /* MarkdownTests.m */,
 			);
 			path = CocoaMarkTests;
 			sourceTree = "<group>";
@@ -99,7 +138,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC03ACA1AB4786000E2B292 /* CocoaMarkRenderer.h in Headers */,
 				ABC03AB21AB4777200E2B292 /* CocoaMark.h in Headers */,
+				ABC03ACE1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABC03AC21AB4777200E2B292 /* Build configuration list for PBXNativeTarget "CocoaMark" */;
 			buildPhases = (
+				884960A98CCE938E1888BE79 /* Check Pods Manifest.lock */,
 				ABC03AAA1AB4777200E2B292 /* Sources */,
 				ABC03AAB1AB4777200E2B292 /* Frameworks */,
 				ABC03AAC1AB4777200E2B292 /* Headers */,
+				E929C122FF8D0A2B5CA50C0B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +229,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		884960A98CCE938E1888BE79 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E929C122FF8D0A2B5CA50C0B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABC03AAA1AB4777200E2B292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ABC03AB41AB4777200E2B292 /* CocoaMark.m in Sources */,
+				ABC03ACB1AB4786000E2B292 /* CocoaMarkRenderer.m in Sources */,
+				ABC03ACF1AB47AE500E2B292 /* CocoaMarkDocumentProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8A154A1AB48B7400AE3A3C /* MarkdownTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -281,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -289,6 +368,7 @@
 		};
 		ABC03AC31AB4777200E2B292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E5FDD43276D97944B660A1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -299,6 +379,7 @@
 		};
 		ABC03AC41AB4777200E2B292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D950C06C94BDD80D0A21160 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -358,6 +439,7 @@
 				ABC03AC41AB4777200E2B292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC03AC51AB4777200E2B292 /* Build configuration list for PBXNativeTarget "CocoaMarkTests" */ = {
 			isa = XCConfigurationList;
@@ -366,6 +448,7 @@
 				ABC03AC71AB4777200E2B292 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

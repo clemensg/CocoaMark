@@ -10,4 +10,8 @@
 
 @interface CocoaMark : NSObject
 
+// Basic helper
+
++ (NSString*)renderMarkdown:(NSString*)string;
+
 @end
