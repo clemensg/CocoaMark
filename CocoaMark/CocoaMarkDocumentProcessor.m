@@ -37,8 +37,10 @@ static const int bufferGrowUnit = 1024;
 {
     if(markdownString) {
         uint8_t *byteArray = (uint8_t*) [markdownString UTF8String];
+        
+        NSData *stringdata = [markdownString dataUsingEncoding:NSUTF8StringEncoding];
 
-        hoedown_document_render(document, buffer, byteArray, [markdownString length]);
+        hoedown_document_render(document, buffer, byteArray, [stringdata length]);
 
         const char * const szBuffer = hoedown_buffer_cstr(buffer);
         if(szBuffer) {
