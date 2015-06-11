@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'CocoaMark'
-  s.version = '0.2'
+  s.version = '0.3'
   s.summary = 'A simple Markdown parser for Cocoa.'
   s.homepage = 'https://github.com/clemensg/CocoaMark'
   s.license = 'MIT'
   s.author = { 'Clemens Gruber' => 'clemensgru@gmail.com' }
-  s.source = { :git => 'https://github.com/clemensg/CocoaMark.git', :tag => 'v0.2' }
+  s.source = { :git => 'https://github.com/clemensg/CocoaMark.git', :tag => 'v0.3' }
   s.requires_arc = true
 
   s.default_subspec = 'standard'

@@ -190,7 +190,7 @@
 		ABC03AA61AB4777200E2B292 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Gruber Software";
 				TargetAttributes = {
 					ABC03AAD1AB4777200E2B292 = {
@@ -370,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36E5FDD43276D97944B660A1 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
@@ -381,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D950C06C94BDD80D0A21160 /* Pods.release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
